@@ -1,0 +1,113 @@
+# Bytecode / caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dylib
+.pytest_cache/
+.cache/
+.ruff_cache/
+.mypy_cache/
+.pytype/
+.nox/
+.tox/
+
+# Packaging / build outputs
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+*.whl
+
+# Virtual envs
+.venv/
+venv/
+.env
+.env.*
+
+# Lockfiles (keep if this is an app; ignore for a library)
+uv.lock
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Editors/OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# --- LaTeX build artifacts ---
+*.aux
+*.auxlock
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.synctex(busy)
+*.toc
+*.vrb
+*.xdv
+
+# glossaries, nomenclature, makeidx etc.
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.nlo
+*.nls
+
+# beamer / pgf
+*.nav
+*.snm
+
+# latexmk & arara
+latexmkrc
+*.latexmk
+*.mk
+
+# minted & pygments
+_minted*
+*.pyg
+
+# arXiv helper (optional)
+*.blx.bib
+
+# --- Editor/OS cruft ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+
+# --- PDFs ---
+# Ignore all compiled PDFs by default...
+*.pdf
+
+# ...but keep vector/source PDFs in figures/
+!figures/*.pdf
+!figures/**/*.pdf
+
+# ...and keep final deliverables in exports/
+!exports/*.pdf
+!exports/**/*.pdf
+
+# If you keep hand-written PDFs (not compiled) elsewhere, unignore them explicitly:
+# !docs/**/*.pdf
